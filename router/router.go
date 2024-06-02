@@ -2,7 +2,6 @@ package router
 
 import (
 	"fmt"
-	"gothex/pages"
 	"log"
 	"net/http"
 	"strconv"
@@ -11,6 +10,7 @@ import (
 	"github.com/gorilla/sessions"
 	"github.com/labstack/echo-contrib/session"
 	"github.com/labstack/echo/v4"
+	"github.com/thedivinez/gothex/pages"
 )
 
 type GothexRouter struct {

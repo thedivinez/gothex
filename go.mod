@@ -1,4 +1,4 @@
-module gothex
+module github.com/thedivinez/gothex
 
 go 1.21.0
 

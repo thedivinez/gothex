@@ -3,8 +3,6 @@ package router
 import (
 	"context"
 	"encoding/json"
-	"gothex/pages"
-	"gothex/types"
 	"net/http"
 
 	"github.com/a-h/templ"
@@ -12,6 +10,8 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/labstack/echo-contrib/session"
 	"github.com/labstack/echo/v4"
+	"github.com/thedivinez/gothex/pages"
+	"github.com/thedivinez/gothex/types"
 )
 
 type Configs struct {

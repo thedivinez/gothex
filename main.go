@@ -2,17 +2,16 @@ package main
 
 import (
 	"encoding/json"
-	"gothex/api"
-	"gothex/frontend"
-	"gothex/pages"
-	"gothex/router"
-
 	"log"
 
 	"github.com/joho/godotenv"
 	"github.com/markbates/goth"
 	"github.com/markbates/goth/gothic"
 	"github.com/markbates/goth/providers/google"
+	"github.com/thedivinez/gothex/api"
+	"github.com/thedivinez/gothex/frontend"
+	"github.com/thedivinez/gothex/pages"
+	"github.com/thedivinez/gothex/router"
 )
 
 type Configs struct {

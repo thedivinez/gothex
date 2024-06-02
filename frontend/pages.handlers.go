@@ -2,12 +2,12 @@ package frontend
 
 import (
 	"encoding/json"
-	"gothex/pages"
-	"gothex/router"
-	"gothex/types"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
+	"github.com/thedivinez/gothex/pages"
+	"github.com/thedivinez/gothex/router"
+	"github.com/thedivinez/gothex/types"
 )
 
 type Pages struct{}

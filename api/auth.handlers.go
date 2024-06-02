@@ -1,14 +1,14 @@
 package api
 
 import (
-	"gothex/components"
-	"gothex/components/auth"
-	"gothex/router"
 	"log"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
 	"github.com/markbates/goth/gothic"
+	"github.com/thedivinez/gothex/components"
+	"github.com/thedivinez/gothex/components/auth"
+	"github.com/thedivinez/gothex/router"
 )
 
 type AuthHandler struct{}
