@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+  display: none;
+}
+
+body {
+  color: #ffffff;
+  background-color: #0f0533;
+  font-family: Poppins;
+}
+
+/* Scroll thumb styles */
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3c5272;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #3c5272;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3c5272;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Scroll track styles (Background) */
+::-webkit-scrollbar-track {
+  background: #142236;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+  background: #131314;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -appearance: textfield;
+}
+
+.purple-orange {
+  background: -webkit-linear-gradient(
+    0,
+    rgb(6, 130, 212),
+    rgb(75, 167, 228),
+    rgb(176, 194, 218),
+    rgb(219, 224, 230)
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /* apply background clip */
+  -webkit-text-fill-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  box-shadow: inset 0 0 20px 20px #09476400;
+  transition: background-color 5000s ease-in-out 0s;
+}

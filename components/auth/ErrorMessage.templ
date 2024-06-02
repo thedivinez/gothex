@@ -1,0 +1,14 @@
+package auth
+
+templ ErrorMessage(message string) {
+	<div
+		id="form-response"
+		if message != "" {
+			class="text-center bg-platform-red/60 text-slate-300 text-sm rounded-md p-1.5 transition ease-in-out duration-300"
+		} else {
+			class="text-center bg-platform-red/60 text-slate-300 text-sm rounded-md transition ease-in-out duration-300"
+		}
+	>
+		{ message }
+	</div>
+}

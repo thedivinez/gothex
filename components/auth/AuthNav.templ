@@ -1,0 +1,16 @@
+package auth
+
+type AuthNavProps struct {
+	LinkName string
+	Question string
+	LinkUrl  templ.SafeURL
+}
+
+templ AuthNav(props AuthNavProps) {
+	<div class="flex space-x-2 text-center text-2xs xl:text-xs justify-between">
+		<span class="text-slate-400">{ props.Question }</span>
+		<a href={ props.LinkUrl }>
+			<span class="cursor-pointer font-medium text-platform-accent hover:text-platform-accent/90 transition duration-300 ease-in">{ props.LinkName }</span>
+		</a>
+	</div>
+}

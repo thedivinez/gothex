@@ -1,0 +1,5 @@
+<div id=\"form-response\"
+ class=\"text-center bg-platform-red/60 text-slate-300 text-sm rounded-md p-1.5 transition ease-in-out duration-300\"
+ class=\"text-center bg-platform-red/60 text-slate-300 text-sm rounded-md transition ease-in-out duration-300\"
+>
+</div>

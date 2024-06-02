@@ -1,0 +1,4 @@
+<div class=\"flex space-x-2 text-center text-2xs xl:text-xs justify-between\"><span class=\"text-slate-400\">
+</span> <a href=\"
+\"><span class=\"cursor-pointer font-medium text-platform-accent hover:text-platform-accent/90 transition duration-300 ease-in\">
+</span></a></div>

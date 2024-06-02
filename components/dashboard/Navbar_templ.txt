@@ -1,0 +1,2 @@
+<nav class=\"flex w-full items-center justify-between p-3 pl-2 bg-platform-background/40 border-b border-platform-border/20\"><img src=\"/img/logo.png\" class=\"h-7\"><div class=\"flex items-center space-x-4 text-lg\"><span class=\"text-cyan-500 text-xs\">
+</span></div></nav>

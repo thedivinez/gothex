@@ -1,0 +1,2 @@
+<button type=\"submit\" :disabled=\"!isValid\" :class=\"{ &#39;cursor-pointer hover:bg-platform-accent/60&#39;: isValid }\" class=\"rounded-md 2xl:rounded-lg py-2 xl:py-2.5 text-xs 2xl:text-sm text-slate-200 outline-none bg-platform-accent/80  transition duration-300 ease-in\"><span>
+</span></button>

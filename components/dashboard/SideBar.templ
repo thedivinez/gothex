@@ -1,0 +1,11 @@
+package dashboard
+
+templ SideBar() {
+	<aside class="flex flex-col py-5 w-28 h-full items-center justify-between px-3 bg-platform-background/40 border-r border-platform-border/20">
+		<div></div>
+		<button class="flex items-center space-x-2" hx-post="/api/signout">
+			<img src="/icons/logout.svg" class="h-5 cursor-pointer"/>
+			<span class="text-xs">Sign Out</span>
+		</button>
+	</aside>
+}

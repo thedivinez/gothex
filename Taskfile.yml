@@ -1,0 +1,27 @@
+version: "3"
+
+env:
+  ENV: testing
+
+dotenv: [".env", "{{.ENV}}/.env.", "{{.HOME}}/.env"]
+
+tasks:
+  build:
+    cmds:
+      - go build -v -i main.go
+
+  assets:
+    cmds:
+      - esbuild --bundle --minify css/index.css > public/bundle.css
+
+  server:
+    cmds:
+      - gowatch -o .build/app.exe
+
+  templ:
+    cmds:
+      - templ generate --watch --proxy="http://localhost:$PORT"
+
+  tailwind:
+    cmds:
+      - tailwindcss -i ./styles/global.scss -o ./public/css/styles.mini.css --minify --watch
